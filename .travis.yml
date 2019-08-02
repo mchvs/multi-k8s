@@ -9,10 +9,10 @@ script:
   - docker run -e CI=true mchvs/react-test npm test
 
 after_success:
-  - docker build -t mchvs/multi-client -f ./client
-  - docker build -t mchvs/multi-nginx -f ./nginx
-  - docker build -t mchvs/multi-server -f ./server
-  - docker build -t mchvs/multi-worker -f ./worker
+  - docker build -t mchvs/multi-client ./client
+  - docker build -t mchvs/multi-nginx ./nginx
+  - docker build -t mchvs/multi-server ./server
+  - docker build -t mchvs/multi-worker ./worker
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   - docker push mchvs/multi-client
   - docker push mchvs/multi-nginx
