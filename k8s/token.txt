@@ -1,0 +1,13 @@
+Name:         default-token-fh95m
+Namespace:    kube-system
+Labels:       <none>
+Annotations:  kubernetes.io/service-account.name: default
+              kubernetes.io/service-account.uid: 42e80f16-d656-4f59-8e2c-1f8156e298ea
+
+Type:  kubernetes.io/service-account-token
+
+Data
+====
+ca.crt:     1115 bytes
+namespace:  11 bytes
+token:      eyJhbGciOiJSUzI1NiIsImtpZCI6IiJ9.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJrdWJlLXN5c3RlbSIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VjcmV0Lm5hbWUiOiJkZWZhdWx0LXRva2VuLWZoOTVtIiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZXJ2aWNlLWFjY291bnQubmFtZSI6ImRlZmF1bHQiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC51aWQiOiI0MmU4MGYxNi1kNjU2LTRmNTktOGUyYy0xZjgxNTZlMjk4ZWEiLCJzdWIiOiJzeXN0ZW06c2VydmljZWFjY291bnQ6a3ViZS1zeXN0ZW06ZGVmYXVsdCJ9.nGyPcLaZ2xR8OSTx56C9oFBMyFsgpcAq_pMln9OtAsw-8NIr0FqSGvGjRA2VX7aud26BlzEmIhGslm_JkBLuHUiwBczatCLi2-7Y2QrmPmdzZ6lq-u57xJa_6IgPsQyphvbDwc-7eyNJoi5zXlzCx6q818bD-BXWV8ZWBXgxDGv9ptX33CvhrhcHnCWAWRZybAi5uDF8c6D8W-TsxlGuJG8REuU8oEBXZxnDd-sYyRDtn4xaS--cv3WiDma8LJ6lPgffeSjb6iJyv5tJDbsS8jsJBYIHNAEfcmbmv2dMLdxf9sDxA6rjhhFfbT-oVk7i2kTttV1JlNJSblKn-dhqcA
