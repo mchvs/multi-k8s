@@ -18,7 +18,7 @@ before_install:
   - docker build -t mchvs/react-test -f ./client/Dockerfile.dev ./client
 
 script:
-  - docker run -e CI=true mchvs/react-test npm run test
+  - docker run mchvs/react-test npm test -- --coverage
 
 deploy:
   provider: script
