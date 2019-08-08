@@ -12,6 +12,10 @@ spec:
       labels:
         component: server
     spec:
+      InitContainers:
+        - name: init-postgres
+          image: postgres
+          command: ['sh', '-c', 'until pg_isready --host postgres-cluster-ip-service --port 5432; do sleep 1; done']
       containers:
         - name: server
           image: mchvs/multi-server
